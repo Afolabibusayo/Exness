@@ -1,0 +1,404 @@
+header{
+    background-color: black;
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.header ul li{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.header .button{
+    display: flex;
+}
+
+.but .reg{
+    margin-top: 1rem;
+    margin: 10px;
+    background-color: yellow;
+    padding: 1rem 2.3rem;
+    border-radius: 7px;
+}
+.but .regg{
+    margin-top: 1rem;
+    margin: 10px;
+    background-color: black;
+    padding: 1rem 2.3rem;
+    border-radius: 7px;
+    color: yellow;
+    border: 1px solid yellow;
+    white-space: nowrap;
+}
+
+/* header section ends */
+/* Main section starts */
+
+
+/* intro section starts */
+
+.intro{
+    background-color: aquamarine;
+    background-image: url(./images/background1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* min-height: 50vh; */
+    padding: 3rem;
+}
+.intro .online{
+    font-size: 4rem;
+    padding: 0 3rem;
+    font-weight: 600;
+}
+.intro .trade{
+    font-size: 2rem;
+    padding: 0 3rem;
+    font-weight: 400;
+}
+.button .reg{
+    background-color: yellow;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border-color: yellow;
+}
+.button .try{
+    background-color: black;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border-color: yellow;
+    color: yellow;
+    margin: 10px;
+    border: none;
+}
+.button{
+    padding: 0 3rem;
+}
+
+/* intro section ends */
+/* withdrawal section starts */
+
+.withdrawal{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 5rem;
+}
+.withdrawal .instant{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.withdrawal .our{
+    font-size: 20px;
+}
+.withdrawal .learn{
+    color:gold;
+    text-decoration: none;
+}
+.withdrawal .payment{
+    font-size: 16px;
+    color: darkgray;
+}
+.withdrawal .more{
+    color: gold;
+    text-decoration: none;
+
+}
+
+/* withdrawal section ends */
+/* history section starts */
+
+.history{
+    background-color: aquamarine;
+    display: flex;
+}
+.history .flex-item1{
+    background-color:darkslategray;
+    width: 50%;
+    min-height: 40vh;
+    padding: 2rem 2rem 2rem 5rem;
+}
+.history .flex-item2{
+    background-color:dimgray;
+    width: 50%;
+    min-height: 30vh;
+    padding: 2rem 2rem 2rem 5rem;
+}
+.history .flex-item1 .fast{
+    font-size: 2rem;
+    color: white;
+}
+.history .flex-item1 .hosting{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+}
+.history .flex-item1 .detail{
+    text-decoration: none;
+    color: gold;
+    margin-bottom: 2rem;
+}
+.history .flex-item2 .fast{
+    font-size: 2rem;
+    color: white;
+}
+.history .flex-item2 .hosting{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+}
+.history .flex-item2 .detail{
+    text-decoration: none;
+    color: gold;
+    margin-bottom: 2rem;
+}
+
+/* history section ends */
+/* market section starts */
+
+.market{
+    background-color: white;
+}
+.market .access{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+}
+.market .trade{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+.market .trade .item{
+    width: 25%;
+    min-height: 30vh;
+    margin: 20px;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+
+}
+.market .trade .item .more{
+    text-decoration: none;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+.market .trade .item .more:hover{
+    text-decoration: underline;
+}
+
+/* market section ends */
+/* account section starts */
+
+.account{
+    /* background-color: darkslateblue; */
+    padding: 2rem;
+}
+.account .suit{
+    text-align: center;
+    font-size: 2rem;
+}
+.account .flex{
+    display: flex;
+    justify-content: center;
+}
+.account .flex1{
+    background-color: black;
+    width: 40%;
+    min-height: 45vh;
+    color: white;
+    padding: 2rem;
+}
+.flex1:nth-child(2){
+    background-color:whitesmoke;
+    color: black;
+}
+.account .flex1 .lass{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+.account .flex1 .lass .item1{
+    border-bottom: 1px dotted white;
+}
+.account .flex1 .feature{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.account .flex1 .detail{
+    float: right;
+    padding: 10px 2.5rem;
+    background-color: black;
+    border: 0.5px solid gold;
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+.account .flex1 .detail a{
+    text-decoration: none;
+    color: gold;
+}
+.account .flex1 .class{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+.account .flex1 .lass .item1{
+    border-bottom: 1px dotted black;
+}
+.account .flex .flex1 .flexible{
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.account .flex1 .details{
+    float: right;
+    padding: 10px 2.5rem;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+.account .flex1 .details a{
+    text-decoration: none;
+    color:black;
+}
+
+/* account section ends */
+/* number section starts */
+
+.number{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86%;
+    margin: auto;
+    padding-inline: 7%;
+}
+.number .item-num{
+    width: 50%;
+    min-height: 50vh;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number .item-num h1{
+    font-size: 2.26rem;
+    font-weight: 600;
+}
+.number .item-num p{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.number .item-num a{
+    display: flex;
+    align-self: flex-start;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.number .item-num a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.number .item-num1{
+    width: 50%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number .item-num1 h4{
+    font-size: 1.5rem;
+}
+.number .item-num1 p{
+    font-size: 1.2rem;
+}
+
+/* number section ends */
+/* register section starts */
+
+.register{
+    background-color: rgb(95, 93, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-block: 7rem;
+}
+.register h1{
+    font-weight: 700;
+}
+.register p{
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+.register button{
+    background-color: gold;
+    border: none;
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
+/* register section ends */
+
+/* footer section starts */
+
+.footer{
+    display: flex;
+    width: 86%;
+    margin: auto;
+    margin-top: 5rem;
+
+}
+.footer div{
+    margin: 5px; 
+    width: 10%;
+    min-height: 30vh;
+    text-align: left;
+}
+.footer .footer-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-item a{
+    text-decoration: none;
+    /* text-align: left; */
+    color: black;
+
+}
+.footer .footer-item a:hover{
+    text-decoration: underline;
+}
+
